@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import bulma from 'bulma';
 
 
 class Columns extends Component {
   render() {
-    return (<div className="columns">Fateen</div>);
+    return (<div className="columns"></div>);
   }
 }
 

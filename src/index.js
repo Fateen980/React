@@ -1,12 +1,14 @@
-import React from 'react';
+import React    from 'react';
 import ReactDOM from 'react-dom';
-import './Containers/index.css';
-import App from './Components/App';
-import Columns from './Components/column/Columns';
+import   'bulma/css/bulma.css'
+import   './Containers/index.css';
+import App       from './Components/App';
+// import Columns   from './Components/column/Columns';
+import Column    from './Components/column/Column';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />   , document.getElementById('root'));
-ReactDOM.render(<Columns />, document.getElementById('body'));
+ReactDOM.render(<App />    , document.getElementById('root'));
+ReactDOM.render(<Column /> , document.getElementById('body'));
 
 registerServiceWorker();
 
